@@ -34,10 +34,14 @@ var shows = ["Power Rangers", "Salute Your Shorts", "Hey Dude", "Legends of the 
         var showInput = $("#show-input").val().trim();
         // the input from the textbox is then added to our array
         shows.push(showInput);
-
+        // clearing the value in our text box after submission
+        $("#show-input").val('');
         // calling renderButtons which handles the processing of our show array and creates the buttons dynamically
         renderButtons();
+
       });
+
+
 
 
 //  our function which will display our gifs using ajax 

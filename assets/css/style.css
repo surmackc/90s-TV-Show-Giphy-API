@@ -1,0 +1,35 @@
+body {
+	background-color: #d3d3d3;
+}
+
+h1 {
+	text-align: center;
+	color: #f46d25;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+form {
+	float: right;
+	width: 33%;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+label {
+	font-size: 18px;
+}
+
+#show-input {
+	font-size: 18px;
+}
+
+.gifs {
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+
+button, #add-show {
+	margin: 5px;
+	background-color: #89CFF0;
+	font-size: 18px;
+}
