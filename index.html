@@ -16,8 +16,22 @@
 
 
 <body>
-  <button>Click Me</button>
-  <div id="gif">  
+  <div class="container">
+    <h1>Your Favorite 90's Kid's TV Shows!</h1>
+    <!-- where our buttons are displayed and created -->
+    <div id="shows-buttons"></div>
+
+<!-- input form -->
+    <form id="show-form">
+      <label for="show-input">Add a Show</label>
+      <input type="text" id="show-input"><br>
+
+      <!-- button triggers new show to be added -->
+      <input id="add-show" type="submit" value="Add a show ">
+    </form>
+
+    <!-- gifs will get dumped here -->
+    <div id="gif-view"></div>
   </div>
 
 
